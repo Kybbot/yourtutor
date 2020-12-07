@@ -1,0 +1,14 @@
+button {
+	background-color: var(--accent-color);
+	color: var(--btn-text);
+	font-size: var(--btn-font-size);
+	padding: var(--btn-padding);
+	border-radius: var(--border-radius);
+	border: none;
+	cursor: pointer;
+	transition: var(--transition);
+}
+
+button:hover {
+	box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.1);
+}

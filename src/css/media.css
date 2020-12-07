@@ -1,0 +1,112 @@
+/* HEADER */
+@media screen and (max-width: 530px) {
+	.header__nav ul li {
+		margin: 0 40px 10px 0;
+	}
+}
+
+/* ABOUT */
+@media screen and (max-width: 1200px) {
+	.about__group {
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.about__title {
+		font-size: 36px;
+		line-height: 50px;
+	}
+}
+
+/* STEPS */
+@media screen and (max-width: 1200px) {
+	.steps__container {
+		justify-content: space-evenly;
+	}
+}
+
+/* SUBJECTS */
+@media screen and (max-width: 1200px) {
+	.subjects__grid {
+		grid-template-columns: repeat(5, 1fr);
+	}
+
+	.subjects__info {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.subjects__item_last {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.subjects__grid {
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+	
+	.subjects__info {
+		margin-bottom: 30px;
+	}
+
+	.subjects__item_last {
+		display: block;
+	}
+}
+
+/* TEACHERS */
+@media screen and (max-width: 1200px) {
+	.teachers__container {
+		justify-content: space-evenly;
+	}
+}
+
+/* CITYS */
+@media screen and (max-width: 1200px) {
+	.citys__grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.citys__info {
+		grid-column-start: 2;
+		grid-column-end: 4;
+	}
+
+	.subjects__item_last {
+		display: none;
+	}
+
+	.citys__item_last {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.citys__grid {
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+	
+	.citys__info {
+		margin: 0 0 30px 0;
+	}
+
+	.citys__item {
+		margin: 0 0 30px 0;
+	}
+
+	.subjects__item_last {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 369px) {
+	.offers__list li {
+		font-size: 16px;
+	}
+}

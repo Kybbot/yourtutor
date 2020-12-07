@@ -1,0 +1,25 @@
+.steps {
+	margin-bottom: 80px;
+}
+
+.steps__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.steps__group {
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+.steps__title {
+	margin: 0 0 20px 0;
+	font-size: 32px;
+}
+
+.steps__text {
+	font-size: 18px;
+	line-height: 30px;
+}
