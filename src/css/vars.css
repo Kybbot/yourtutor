@@ -8,18 +8,13 @@
 :root {
 	--main-text: #000000;
 	--secondary-text: #505050;
-	--accent-color: #0070FF;
-	--main-bg: #ffffff;
-	--secondary-bg: #E3E6EA;
-	--tag-bg: #ECECF3;
-	--border-color: #CACACA;
-	--accent-border: #FFD500;
+	--accent-color: #0070ff;
+	--lp-main-bg: #ffffff;
+	--lp-secondary-bg: #e3e6ea;
 
-	--border-radius: 5px;
-	--transition: all .3s ease;
+	--borders: #e8e8e8;
 
-	/* BUTTON */
-	--btn-text: #ffffff;
-	--btn-font-size: 20px;
-	--btn-padding: 11px 25px;
+	--radius: 5px;
+	--outline: 0 0 0 4px rgba(0, 96, 223, 0.3);
+	--shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
 }

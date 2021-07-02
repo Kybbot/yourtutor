@@ -10,10 +10,10 @@ const colors = [
 	'rgba(255, 146, 0, .5)',
 	'rgba(145, 145, 145, .5)',
 	'rgba(0, 0, 255, .5)',
-	'rgba(255, 0, 70, .5)'
+	'rgba(255, 0, 70, .5)',
 ];
 
-let circles = document.querySelectorAll('.subjects__circle');
+let circles = document.querySelectorAll('.lp-subjects__circle');
 
 circles.forEach((item, index) => {
 	item.style.backgroundColor = colors[index];

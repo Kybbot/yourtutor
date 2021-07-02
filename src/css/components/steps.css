@@ -1,25 +1,25 @@
-.steps {
-	margin-bottom: 80px;
+.lp-steps {
+	margin-bottom: 50px;
 }
 
-.steps__container {
+.lp-steps__row {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+	gap: 20px;
 }
 
-.steps__group {
+.lp-steps__group {
 	text-align: center;
-	margin: 0 0 20px 0;
 }
 
-.steps__title {
+.lp-steps__title {
 	margin: 0 0 20px 0;
 	font-size: 32px;
 }
 
-.steps__text {
+.lp-steps__text {
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 25px;
 }

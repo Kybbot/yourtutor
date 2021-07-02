@@ -1,19 +1,50 @@
+/* GRID */
+@media screen and (max-width: 1200px) {
+	.lp-container {
+		max-width: 960px;
+	}
+}
+
+@media screen and (max-width: 995px) {
+	.lp-container {
+		max-width: 720px;
+	}
+}
+
 /* HEADER */
-@media screen and (max-width: 530px) {
-	.header__nav ul li {
-		margin: 0 40px 10px 0;
+@media screen and (max-width: 505px) {
+	.lp-header__nav ul {
+		gap: 20px;
 	}
 }
 
 /* ABOUT */
 @media screen and (max-width: 1200px) {
-	.about__group {
+	.lp-about__group {
 		margin-bottom: 50px;
+	}
+
+	.lp-about__group {
+		flex: 0 0 60%;
+	}
+}
+
+@media screen and (max-width: 995px) {
+	.lp-about {
+		margin-top: 30px;
+	}
+
+	.lp-about__row {
+		flex-wrap: wrap;
+	}
+
+	.lp-about__group {
+		flex: 0 0 100%;
 	}
 }
 
 @media screen and (max-width: 450px) {
-	.about__title {
+	.lp-about__title {
 		font-size: 36px;
 		line-height: 50px;
 	}
@@ -21,92 +52,111 @@
 
 /* STEPS */
 @media screen and (max-width: 1200px) {
-	.steps__container {
-		justify-content: space-evenly;
+	.lp-steps__row {
+		justify-content: space-around;
 	}
 }
 
 /* SUBJECTS */
 @media screen and (max-width: 1200px) {
-	.subjects__grid {
+	.lp-subjects__grid {
 		grid-template-columns: repeat(5, 1fr);
 	}
 
-	.subjects__info {
+	.lp-subjects__info {
 		grid-column-start: 1;
 		grid-column-end: 3;
 	}
 
-	.subjects__item_last {
+	.lp-subjects__item_last {
 		display: none;
 	}
 }
 
-@media screen and (max-width: 992px) {
-	.subjects__grid {
+@media screen and (max-width: 995px) {
+	.lp-subjects__grid {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-between;
 		flex-wrap: wrap;
+		gap: 20px;
 	}
-	
-	.subjects__info {
+
+	.lp-subjects__info {
 		margin-bottom: 30px;
 	}
 
-	.subjects__item_last {
+	.lp-subjects__item_last {
 		display: block;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.lp-subjects__grid {
+		justify-content: space-around;
 	}
 }
 
 /* TEACHERS */
 @media screen and (max-width: 1200px) {
-	.teachers__container {
-		justify-content: space-evenly;
+	.lp-teachers__container {
+		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 355px) {
+	.lp-teachers__name {
+		font-size: 18px;
+	}
+
+	.lp-teachers__city {
+		font-size: 16px;
 	}
 }
 
 /* CITYS */
 @media screen and (max-width: 1200px) {
-	.citys__grid {
+	.lp-citys__grid {
 		grid-template-columns: repeat(3, 1fr);
 	}
 
-	.citys__info {
+	.lp-citys__info {
 		grid-column-start: 2;
 		grid-column-end: 4;
 	}
 
-	.subjects__item_last {
-		display: none;
-	}
-
-	.citys__item_last {
+	.lp-citys__item_last {
 		display: block;
 	}
 }
 
-@media screen and (max-width: 992px) {
-	.citys__grid {
+@media screen and (max-width: 995px) {
+	.lp-citys__grid {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-between;
 		flex-wrap: wrap;
 	}
-	
-	.citys__info {
+
+	.lp-citys__info {
 		margin: 0 0 30px 0;
 	}
 
-	.citys__item {
-		margin: 0 0 30px 0;
+	.lp-citys__item {
+		width: 270px;
 	}
 
-	.subjects__item_last {
-		display: block;
+	.lp-citys__item_last {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.lp-citys__grid {
+		justify-content: space-around;
 	}
 }
 
 @media screen and (max-width: 369px) {
-	.offers__list li {
+	.lp-offers__list li {
 		font-size: 16px;
 	}
 }
